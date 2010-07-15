@@ -4,8 +4,8 @@
 http://github.com/prabirshrestha/js-namespace/raw/master/LICENSE.txt
 
 ### Basic Usage
-<script type="text/javascript" src="js-namespace.min.js"></script>
-<script type="text/javascript">
+&lt;script type="text/javascript" src="js-namespace.min.js">&lt;/script>
+&lt;script type="text/javascript">
 	if(!NS.exists('Prabir.Shrestha'))
 		NS.register('Prabir.Shrestha');
 		Prabir.Shrestha.MySDK = function(){
@@ -17,4 +17,4 @@ http://github.com/prabirshrestha/js-namespace/raw/master/LICENSE.txt
 	};
 	var mySdk = new Prabir.Shrestha.MySDK();
 	mySdk.public_method();
-</script>
+&lt;/script>
